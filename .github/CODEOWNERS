@@ -33,7 +33,7 @@
 #   Role:           adversarial reviewer, test author, alternate implementation proposer
 #   Authorship:     commits land with an explicit Codex trailer when Codex authors
 #                   the change:
-#                   Co-Authored-By: Codex <codex@openai.com>
+#                   Co-Authored-By: Codex Cluster <jerrame.hertz+codex-cluster@gmail.com>
 #   Review stance:  prioritize defects, regressions, missing tests, and protocol
 #                   violations before summaries or implementation praise
 #   PR attribution: PR body declares "**Cluster**: codex"
@@ -44,7 +44,5 @@
 #                   collaborator invite; signing key registration: TBD)
 # -----------------------------------------------------------------------------
 
-# Once both GitHub handles exist, uncomment the line below to activate
-# auto-requested cross-cluster review on every PR:
-#
+# Active wildcard route for cross-cluster review on every PR:
 *  @claude-cluster-bot  @codex-cluster-bot
