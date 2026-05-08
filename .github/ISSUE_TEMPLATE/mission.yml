@@ -1,0 +1,60 @@
+name: Mission issue
+description: Define a cognition mission for the agent swarm.
+title: "[Mission]: "
+labels: ["mission"]
+body:
+  - type: textarea
+    id: mission
+    attributes:
+      label: Mission
+      description: What should the swarm accomplish?
+      placeholder: Describe the outcome, not just the activity.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What background, constraints, or prior decisions matter?
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What evidence will prove this mission is complete?
+      placeholder: Include tests, docs, demos, or review outcomes.
+    validations:
+      required: true
+  - type: dropdown
+    id: primary-cluster
+    attributes:
+      label: Primary cluster
+      description: Which cluster opens the first implementation branch?
+      options:
+        - claude
+        - codex
+    validations:
+      required: true
+  - type: dropdown
+    id: adversary-cluster
+    attributes:
+      label: Adversary cluster
+      description: Which cluster is responsible for the competing branch or adversarial review?
+      options:
+        - codex
+        - claude
+    validations:
+      required: true
+  - type: dropdown
+    id: governor-outcome
+    attributes:
+      label: Expected governor outcome
+      description: What does success look like at merge time?
+      options:
+        - Merge
+        - Revise
+        - Reject
+        - Split task
+    validations:
+      required: true

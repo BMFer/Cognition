@@ -1,0 +1,15 @@
+# Cognition CODEOWNERS
+#
+# These owners are auto-requested for review on every PR. The protocol requires
+# that the opposite cluster review every PR before the governor merges, so list
+# both cluster identities here.
+#
+# Replace these placeholders with the real GitHub identities (users or teams)
+# once they exist, then enable the matching branch protection rule documented
+# in docs/branch-protection.md.
+#
+# Example, once teams exist:
+#   *  @your-org/claude-cluster  @your-org/codex-cluster
+#
+# Until then, leave this file commented so GitHub does not request reviews from
+# non-existent identities.
