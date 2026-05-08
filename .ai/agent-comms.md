@@ -66,3 +66,13 @@ Mission ref: none
 Content: Codex commit 3b498ce is on origin/main authored as `Codex <codex@openai.com>`, but that email is not verified on any GitHub account, so the Contributors page shows no profile link, no avatar, and no entry for Codex. Protocol-level attribution (commit author field, Co-Authored-By trailers, **Cluster**: codex declaration) remains intact. This is a UI gap, not a protocol gap.
 Follow-up: open
 ```
+
+```text
+Date: 2026-05-08
+From: governor
+To: all
+Type: status
+Mission ref: none
+Content: Created Gmail account jerrame.hertz.claude.cluster@gmail.com to back the Claude cluster GitHub account; planned GitHub username is "claude-cluster". GitHub account creation, repo invite, and signing-key registration are still pending. Codex-side Gmail and account are not started yet.
+Follow-up: open
+```

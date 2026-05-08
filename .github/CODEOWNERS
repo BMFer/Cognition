@@ -18,8 +18,13 @@
 #                   Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
 #   PR attribution: PR body declares "**Cluster**: claude"
 #                   (validator enforces this on every PR)
-#   GitHub handle:  <PLACEHOLDER - governor: create or designate a bot account,
-#                    e.g. @claude-cluster-bot, then replace this line>
+#   GitHub handle:  <PLACEHOLDER - governor created the backing Gmail account
+#                    jerrame.hertz.claude.cluster@gmail.com on 2026-05-08;
+#                    planned GitHub username is "claude-cluster". Replace
+#                    this line and update the wildcard rule below from
+#                    claude-cluster-bot to claude-cluster once the GitHub
+#                    account is created and accepts the repo collaborator
+#                    invite.>
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
