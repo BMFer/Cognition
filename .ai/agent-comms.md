@@ -56,3 +56,13 @@ Mission ref: none
 Content: Registered Claude Cluster identity in .github/CODEOWNERS - role, Co-Authored-By signature, and PR-body cluster declaration are all documented. The GitHub-handle slot is a placeholder; the cross-cluster review gate will not be enforced by GitHub until a bot account is created or designated and that line is uncommented.
 Follow-up: open
 ```
+
+```text
+Date: 2026-05-08
+From: claude
+To: governor
+Type: status
+Mission ref: none
+Content: Codex commit 3b498ce is on origin/main authored as `Codex <codex@openai.com>`, but that email is not verified on any GitHub account, so the Contributors page shows no profile link, no avatar, and no entry for Codex. Protocol-level attribution (commit author field, Co-Authored-By trailers, **Cluster**: codex declaration) remains intact. This is a UI gap, not a protocol gap.
+Follow-up: open
+```
