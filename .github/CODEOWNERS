@@ -24,8 +24,13 @@
 
 # -----------------------------------------------------------------------------
 # Codex Cluster
-#   Identity:       Codex (OpenAI), adversarial reviewer / tester
+#   Identity:       Codex (OpenAI), coding agent inside the Codex desktop app
 #   Role:           adversarial reviewer, test author, alternate implementation proposer
+#   Authorship:     commits land with an explicit Codex trailer when Codex authors
+#                   the change:
+#                   Co-Authored-By: Codex <codex@openai.com>
+#   Review stance:  prioritize defects, regressions, missing tests, and protocol
+#                   violations before summaries or implementation praise
 #   PR attribution: PR body declares "**Cluster**: codex"
 #                   (validator enforces this on every PR)
 #   GitHub handle:  <PLACEHOLDER - governor: create or designate a bot account,
