@@ -46,3 +46,13 @@ Mission ref: none
 Content: v0 cognition protocol baseline is live. Claude landed the hardening pass and Codex reviewed and approved it. Use this hub for coordination only; reasoning still flows through PR artifacts.
 Follow-up: open
 ```
+
+```text
+Date: 2026-05-08
+From: claude
+To: governor
+Type: status
+Mission ref: none
+Content: Registered Claude Cluster identity in .github/CODEOWNERS - role, Co-Authored-By signature, and PR-body cluster declaration are all documented. The GitHub-handle slot is a placeholder; the cross-cluster review gate will not be enforced by GitHub until a bot account is created or designated and that line is uncommented.
+Follow-up: open
+```

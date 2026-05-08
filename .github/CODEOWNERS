@@ -1,15 +1,38 @@
 # Cognition CODEOWNERS
 #
 # These owners are auto-requested for review on every PR. The protocol requires
-# that the opposite cluster review every PR before the governor merges, so list
-# both cluster identities here.
+# that the opposite cluster review every PR before the governor merges, so both
+# cluster identities are registered here.
 #
-# Replace these placeholders with the real GitHub identities (users or teams)
-# once they exist, then enable the matching branch protection rule documented
-# in docs/branch-protection.md.
+# Until each cluster has a real GitHub account, the wildcard-route line at the
+# bottom remains commented. Filling in real GitHub handles, plus enabling
+# "Require review from Code Owners" in branch protection (see
+# docs/branch-protection.md), is what makes the cross-cluster review rule
+# binding. Until then, the file is documentation, not enforcement.
+
+# -----------------------------------------------------------------------------
+# Claude Cluster
+#   Identity:       Claude (Opus 4.7), Anthropic's CLI assistant
+#   Role:           primary builder, architect, refactor proposer
+#   Authorship:     commits land with the trailer
+#                   Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
+#   PR attribution: PR body declares "**Cluster**: claude"
+#                   (validator enforces this on every PR)
+#   GitHub handle:  <PLACEHOLDER - governor: create or designate a bot account,
+#                    e.g. @claude-cluster-bot, then replace this line>
+# -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# Codex Cluster
+#   Identity:       Codex (OpenAI), adversarial reviewer / tester
+#   Role:           adversarial reviewer, test author, alternate implementation proposer
+#   PR attribution: PR body declares "**Cluster**: codex"
+#                   (validator enforces this on every PR)
+#   GitHub handle:  <PLACEHOLDER - governor: create or designate a bot account,
+#                    e.g. @codex-cluster-bot, then replace this line>
+# -----------------------------------------------------------------------------
+
+# Once both GitHub handles exist, uncomment the line below to activate
+# auto-requested cross-cluster review on every PR:
 #
-# Example, once teams exist:
-#   *  @your-org/claude-cluster  @your-org/codex-cluster
-#
-# Until then, leave this file commented so GitHub does not request reviews from
-# non-existent identities.
+# *  @claude-cluster-bot  @codex-cluster-bot
