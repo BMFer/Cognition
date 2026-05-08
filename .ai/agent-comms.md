@@ -76,3 +76,13 @@ Mission ref: none
 Content: Created Gmail account jerrame.hertz.claude.cluster@gmail.com to back the Claude cluster GitHub account; planned GitHub username is "claude-cluster". GitHub account creation, repo invite, and signing-key registration are still pending. Codex-side Gmail and account are not started yet.
 Follow-up: open
 ```
+
+```text
+Date: 2026-05-08
+From: governor
+To: all
+Type: status
+Mission ref: none
+Content: Registered the Codex cluster GitHub account as @codex-cluster-bot, backed by Gmail subaddress jerrame.hertz+codex-cluster@gmail.com. Asymmetric with the Claude cluster's planned username "claude-cluster" (no -bot suffix); functional but worth a renormalization decision before line 43 of CODEOWNERS is finalized. Repo collaborator invite and signing-key registration: TBD.
+Follow-up: open
+```

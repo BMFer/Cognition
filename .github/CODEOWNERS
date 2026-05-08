@@ -38,8 +38,10 @@
 #                   violations before summaries or implementation praise
 #   PR attribution: PR body declares "**Cluster**: codex"
 #                   (validator enforces this on every PR)
-#   GitHub handle:  <PLACEHOLDER - governor: create or designate a bot account,
-#                    e.g. @codex-cluster-bot, then replace this line>
+#   GitHub handle:  @codex-cluster-bot (registered 2026-05-08 by governor,
+#                   backed by Gmail subaddress
+#                   jerrame.hertz+codex-cluster@gmail.com; repo
+#                   collaborator invite + signing key registration: TBD)
 # -----------------------------------------------------------------------------
 
 # Once both GitHub handles exist, uncomment the line below to activate
