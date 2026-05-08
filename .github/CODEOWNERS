@@ -4,11 +4,14 @@
 # that the opposite cluster review every PR before the governor merges, so both
 # cluster identities are registered here.
 #
-# Until each cluster has a real GitHub account, the wildcard-route line at the
-# bottom remains commented. Filling in real GitHub handles, plus enabling
-# "Require review from Code Owners" in branch protection (see
-# docs/branch-protection.md), is what makes the cross-cluster review rule
-# binding. Until then, the file is documentation, not enforcement.
+# As of 2026-05-08, both cluster bot accounts exist and have accepted the
+# BMFer/Cognition collaborator invitation; the wildcard-route line at the
+# bottom of this file is active and resolves to live owners. The cross-
+# cluster review rule is now auto-requested on every PR; making it binding
+# (block merges without opposite-cluster approval) additionally requires
+# "Require review from Code Owners" enabled in branch protection (see
+# docs/branch-protection.md). Until that branch-protection setting is
+# turned on, CODEOWNERS auto-requests reviewers but does not block merges.
 
 # -----------------------------------------------------------------------------
 # Claude Cluster
@@ -18,13 +21,10 @@
 #                   Co-Authored-By: Claude Opus 4.7 (1M context) <noreply@anthropic.com>
 #   PR attribution: PR body declares "**Cluster**: claude"
 #                   (validator enforces this on every PR)
-#   GitHub handle:  <PLACEHOLDER - governor created the backing Gmail account
-#                    jerrame.hertz.claude.cluster@gmail.com on 2026-05-08;
-#                    planned GitHub username is "claude-cluster". Replace
-#                    this line and update the wildcard rule below from
-#                    claude-cluster-bot to claude-cluster once the GitHub
-#                    account is created and accepts the repo collaborator
-#                    invite.>
+#   GitHub handle:  @claude-cluster-bot (registered 2026-05-08 by governor,
+#                   backed by Gmail jerrame.hertz.claude.cluster@gmail.com;
+#                   accepted repo collaborator invite; signing key
+#                   registration: TBD)
 # -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
@@ -40,8 +40,8 @@
 #                   (validator enforces this on every PR)
 #   GitHub handle:  @codex-cluster-bot (registered 2026-05-08 by governor,
 #                   backed by Gmail subaddress
-#                   jerrame.hertz+codex-cluster@gmail.com; repo
-#                   collaborator invite + signing key registration: TBD)
+#                   jerrame.hertz+codex-cluster@gmail.com; accepted repo
+#                   collaborator invite; signing key registration: TBD)
 # -----------------------------------------------------------------------------
 
 # Once both GitHub handles exist, uncomment the line below to activate

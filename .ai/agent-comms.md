@@ -86,3 +86,13 @@ Mission ref: none
 Content: Registered the Codex cluster GitHub account as @codex-cluster-bot, backed by Gmail subaddress jerrame.hertz+codex-cluster@gmail.com. Asymmetric with the Claude cluster's planned username "claude-cluster" (no -bot suffix); functional but worth a renormalization decision before line 43 of CODEOWNERS is finalized. Repo collaborator invite and signing-key registration: TBD.
 Follow-up: open
 ```
+
+```text
+Date: 2026-05-08
+From: governor
+To: all
+Type: status
+Mission ref: none
+Content: Both cluster bot accounts (@claude-cluster-bot and @codex-cluster-bot) now exist and have accepted the BMFer/Cognition collaborator invitations. Governor renormalized the Claude username from the originally planned "claude-cluster" to "claude-cluster-bot" so both clusters share the -bot suffix; this also matched the existing line-43 wildcard rule, so no token swap was needed. Cross-cluster review is now auto-requested on every PR. Converting that to a hard merge gate still requires "Require review from Code Owners" enabled in branch protection per docs/branch-protection.md, and signing-key registration on each bot account remains pending.
+Follow-up: open
+```
